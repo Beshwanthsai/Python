@@ -11,3 +11,15 @@ def LOT(a,b,c):
         print("c is largest")
 
 LOT(a,b,c)
+
+
+#typecasting
+
+cgpa = 9.78
+
+print(type(cgpa))
+print(cgpa)
+typecasted_cgpa = int(cgpa)
+print(type(typecasted_cgpa))
+print(typecasted_cgpa)
+#typecasting
