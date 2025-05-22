@@ -13,4 +13,4 @@ def check_prime():
         print("enter a valid number")
 
 if __name__ == "__main__":
-    check_prime()
+    check_prime()                   
