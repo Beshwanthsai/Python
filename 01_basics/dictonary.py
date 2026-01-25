@@ -29,3 +29,4 @@ print(d1.values())
 print(d1.items())
 for key in d1:
     print(key, ":", d1[key])
+print(d1['name'])
