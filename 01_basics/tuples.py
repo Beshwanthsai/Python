@@ -12,11 +12,11 @@ print(tup[2:8])
 print(tup[::-1])
 print(tup[:])
 print(tup[1:10:2])
-# tup[0] = 99 # This will raise an error because tuples are immutable
-print(tup)
-
-#tuple object does not support item assignment
-# tup[0]=  99
-print(tup)
+# # tup[0] = 99 # This will raise an error because tuples are immutable
+# print(tup)
+#
+# #tuple object does not support item assignment
+# # tup[0]=  99
+# print(tup)
 print(tup.index(500))
 print(tup.count(9))

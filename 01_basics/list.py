@@ -77,3 +77,10 @@ print(max(nums2))
 print(sum(nums2))
 print(nums2)
 print (nums2)
+
+animals = ["rabbit", "cat", "dog", "hamster", "parrot"]
+print(animals.pop(3))
+print(animals.append("bear"))
+print(animals.pop(0))
+print(animals)
+print(animals[0:3])
