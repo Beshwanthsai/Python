@@ -1,12 +1,14 @@
 from Enemy import *
+from Zombie import *
+from Ogre import *
 
-enemy = Enemy("zombie",100,10)
-print(f"type of enemy : {enemy.get_enemytype()}, health : {enemy.health}, attack : {enemy.attack}")
+zombie = Zombie(100,10)
 
-enemy.talk()
+print(zombie.get_enemytype())
 
-print()
-print()
+print(zombie.talk())
+print(zombie.eat())
+print(zombie.spraad())
 
-print(enemy.get_enemytype())
-
+ogre = Ogre(1,100)
+print(ogre.get_enemytype())

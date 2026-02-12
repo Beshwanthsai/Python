@@ -1,6 +1,6 @@
 class Enemy:
 
-    def __init__(self,enemytype,health=90,attack=2):
+    def __init__(self,enemytype,health,attack):
         self.__enemytype = enemytype
         self.health = health
         self.attack = attack
@@ -9,5 +9,7 @@ class Enemy:
         return self.__enemytype
 
     def talk(self):
-        print("I am an enemy, I will kill you")
+        print(f"{self.__enemytype} and has a health of {self.health} health and is talking to you")
 
+    def eat(self):
+        print(f"{self.__enemytype} and has a health and it is going to kill you")
