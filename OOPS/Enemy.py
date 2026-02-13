@@ -13,3 +13,6 @@ class Enemy:
 
     def eat(self):
         print(f"{self.__enemytype} and has a health and it is going to kill you")
+
+    def special_attack(self):
+        print("Enemy has no special attack!")
